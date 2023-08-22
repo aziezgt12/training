@@ -1,214 +1,215 @@
-<div class="row">
-
-    <div class="col-sm-6 col-xl-3">
-        <div class="card">
-            <div class="card-heading p-4">
-                <div class="mini-stat-icon float-right">
-                    <i class="mdi mdi-cube-outline bg-primary  text-white"></i>
+<!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<div class="container-fluid py-4">
+      <div class="row">
+        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+          <div class="card">
+            <div class="card-body p-3">
+              <div class="row">
+                <div class="col-8">
+                  <div class="numbers">
+                    <p class="text-sm mb-0  font-weight-bold">Total Training</p>
+                    <h5 class="font-weight-bolder mt-3">
+                      <?= $totalTraining ?> Training
+                    </h5>
+                    <p class="mb-0">
+                      <span class="text-dark text-xs">Total Seluruh Training</span>
+                      
+                    </p>
+                  </div>
                 </div>
-                <div>
-                    <h5 class="font-16">Total Sales</h5>
+                <div class="col-4 text-end">
+                  <div class="icon icon-shape bg-gradient-primary shadow-primary text-center rounded-circle">
+                    <i class="ni ni-bullet-list-67 text-lg opacity-10" aria-hidden="true"></i>
+                  </div>
                 </div>
-                <h3 class="mt-4"><?= count($sales) ?> Sales Marketting</h3>
-
-                
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-
-    <div class="col-sm-6 col-xl-3">
-        <div class="card">
-            <div class="card-heading p-4">
-                <div class="mini-stat-icon float-right">
-                    <i class="mdi mdi-briefcase-check bg-success text-white"></i>
+        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+          <div class="card">
+            <div class="card-body p-3">
+              <div class="row">
+                <div class="col-8">
+                  <div class="numbers">
+                    <p class="text-sm mb-0  font-weight-bold">Total Sertifikat</p>
+                    <h5 class="font-weight-bolder mt-3">
+                      <?= $totalSertifikat ?> Sertifikat
+                    </h5>
+                    <p class="mb-0">
+                      <span class="text-dark text-xs">Total Training Bulan Ini </span>
+                      
+                    </p>
+                  </div>
                 </div>
-                <div>
-                    <h5 class="font-16">Total User</h5>
+                <div class="col-4 text-end">
+                  <div class="icon icon-shape bg-gradient-danger shadow-danger text-center rounded-circle">
+                    <i class="ni ni-world text-lg opacity-10" aria-hidden="true"></i>
+                  </div>
                 </div>
-                <h3 class="mt-4"><?= count($user) ?> Users</h3>
-                <!-- <div class="progress mt-4" style="height: 4px;">
-                    <div class="progress-bar bg-success" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div>
-                </div> -->
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-
-    <div class="col-sm-6 col-xl-3">
-        <div class="card">
-            <div class="card-heading p-4">
-                <div class="mini-stat-icon float-right">
-                    <i class="mdi mdi-tag-text-outline bg-warning text-white"></i>
+        <div class="col-xl-3 col-sm-6 mb-xl-0 mb-4">
+          <div class="card">
+            <div class="card-body p-3">
+              <div class="row">
+                <div class="col-8">
+                  <div class="numbers">
+                    <p class="text-sm mb-0  font-weight-bold">training aktif</p>
+                    <h5 class="font-weight-bolder mt-3">
+                      <?= $totalAktif ?> Training
+                    </h5>
+                    <p class="mb-0">
+                      <span class="text-dark text-xs">Total Training Aktif </span>
+                      
+                    </p>
+                  </div>
                 </div>
-                <div>
-                    <h5 class="font-16">Total Sertifikat</h5>
+                <div class="col-4 text-end">
+                  <div class="icon icon-shape bg-gradient-success shadow-success text-center rounded-circle">
+                    <i class="ni ni-check-bold text-lg opacity-10" aria-hidden="true"></i>
+                  </div>
                 </div>
-                <h3 class="mt-4"><?= count($sertifikat) ?> Sertifikat</h3>
-
-                <!-- <div class="progress mt-4" style="height: 4px;">
-                    <div class="progress-bar bg-warning" role="progressbar" style="width: 68%" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
-                </div> -->
-                <!-- <div class="progress-bar bg-success" role="progressbar" style="width: 88%" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100"></div> -->
-                <!-- <p class="text-muted mt-2 mb-0">Previous period<span class="float-right">68%</span></p> -->
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-
-    <div class="col-sm-6 col-xl-3">
-        <div class="card">
-            <div class="card-heading p-4">
-                <div class="mini-stat-icon float-right">
-                    <i class="mdi mdi-buffer bg-danger text-white"></i>
+        <div class="col-xl-3 col-sm-6">
+          <div class="card">
+            <div class="card-body p-3">
+              <div class="row">
+                <div class="col-8">
+                  <div class="numbers">
+                    <p class="text-sm mb-0  font-weight-bold">training non aktif</p>
+                   <h5 class="font-weight-bolder mt-3">
+                      <?= $totalNotAktif ?> Training
+                    </h5>
+                    <p class="mb-0">
+                      <span class="text-dark text-xxs">Total Training Not Aktif</span>
+                      
+                    </p>
+                  </div>
                 </div>
-                <div>
-                    <h5 class="font-16">Total Layanan</h5>
+                <div class="col-4 text-end">
+                  <div class="icon icon-shape bg-gradient-warning shadow-warning text-center rounded-circle">
+                    <i class="ni ni-time-alarm text-lg opacity-10" aria-hidden="true"></i>
+                  </div>
                 </div>
-                <h3 class="mt-4"><?= count($layanan) ?> Layanan</h3>
-
-               <!--  <div class="progress mt-4" style="height: 4px;">
-                    <div class="progress-bar bg-danger" role="progressbar" style="width: 82%" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
-                </div>
-                <p class="text-muted mt-2 mb-0">Previous period<span class="float-right">82%</span></p> -->
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-
-</div>
-
-
-<!-- <div class="row">
-        <div class="col-xl-4">
-            <div class="card m-b-30">
-                <div class="card-body">
-                    <h4 class="mt-0 header-title mb-4">Friends Suggestions</h4>
-                    <div class="friends-suggestions">
-                        <a href="#" class="friends-suggestions-list">
-                            <div class="border-bottom position-relative">
-                                <div class="float-left mb-0 mr-3">
-                                    <img src="assets/images/users/user-2.jpg" alt="" class="rounded-circle thumb-md">
-                                </div>
-                                <div class="suggestion-icon float-right mt-2 pt-1">
-                                    <i class="mdi mdi-plus"></i>
-                                </div>
-
-                                <div class="desc">
-                                    <h5 class="font-14 mb-1 pt-2 text-dark">Ralph Ramirez</h5>
-                                    <p class="text-muted">3 Friend suggest</p>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="#" class="friends-suggestions-list">
-                            <div class="border-bottom position-relative">
-                                <div class="float-left mb-0 mr-3">
-                                    <img src="assets/images/users/user-3.jpg" alt="" class="rounded-circle thumb-md">
-                                </div>
-                                <div class="suggestion-icon float-right mt-2 pt-1">
-                                    <i class="mdi mdi-plus"></i>
-                                </div>
-
-                                <div class="desc">
-                                    <h5 class="font-14 mb-1 pt-2 text-dark">Patrick Beeler</h5>
-                                    <p class="text-muted">17 Friend suggest</p>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="#" class="friends-suggestions-list">
-                            <div class="border-bottom position-relative">
-                                <div class="float-left mb-0 mr-3">
-                                    <img src="assets/images/users/user-4.jpg" alt="" class="rounded-circle thumb-md">
-                                </div>
-                                <div class="suggestion-icon float-right mt-2 pt-1">
-                                    <i class="mdi mdi-plus"></i>
-                                </div>
-
-                                <div class="desc">
-                                    <h5 class="font-14 mb-1 pt-2 text-dark">Victor Zamora</h5>
-                                    <p class="text-muted">12 Friend suggest</p>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="#" class="friends-suggestions-list">
-                            <div class="border-bottom position-relative">
-                                <div class="float-left mb-0 mr-3">
-                                    <img src="assets/images/users/user-5.jpg" alt="" class="rounded-circle thumb-md">
-                                </div>
-                                <div class="suggestion-icon float-right mt-2 pt-1">
-                                    <i class="mdi mdi-plus"></i>
-                                </div>
-
-                                <div class="desc">
-                                    <h5 class="font-14 mb-1 pt-2 text-dark">Bryan Lacy</h5>
-                                    <p class="text-muted">18 Friend suggest</p>
-                                </div>
-                            </div>
-                        </a>
-
-                        <a href="#" class="friends-suggestions-list">
-                            <div class="position-relative">
-                                <div class="float-left mb-0 mr-3">
-                                    <img src="assets/images/users/user-6.jpg" alt="" class="rounded-circle thumb-md">
-                                </div>
-                                <div class="suggestion-icon float-right mt-2 pt-1">
-                                    <i class="mdi mdi-plus"></i>
-                                </div>
-
-                                <div class="desc">
-                                    <h5 class="font-14 mb-1 pt-2 text-dark">James Sorrells</h5>
-                                    <p class="text-muted mb-1">6 Friend suggest</p>
-                                </div>
-                            </div>
-                        </a>
-
-                    </div>
+      </div>
+      
+       
+      <div class="row mt-4">
+        <div class="col-lg-9 mb-lg-0 mb-4">
+          <div class="card ">
+            <div class="card-header pb-0 p-3">
+              <div class="d-flex justify-content-between">
+                <h6 class="mb-2">List Of Training</h6>
+              </div>
+            </div>
+            <div class="table-responsive p-2">
+              <table class="table align-items-center justify-content-center">
+                <thead>
+                    <td >Nama Training</td>
+                    <td >Tanggal Training</td>
+                    <td >Instruktur</td>
+                    <td >Jenis Training</td>
+                </thead>
+                <tbody>
+                <?php foreach($listTraining as $val) : ?>
+                <tr>
+                    <td><?= $val->nama ?></td>
+                    <td><?= $val->durasi ?></td>
+                    <td><?= $val->instruktur ?></td>
+                    <td>
+                        <div class="badge <?= $val->jenis == 'During' ? 'bg-danger' : 'bg-primary' ?>"><?= $val->jenis ?>
+                        </div>
+                    </td>
+                </tr>
+                <?php endforeach ?>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="card">
+            <div class="card-header pb-0 p-3">
+              <h6 class="mb-0">List Of Company</h6>
+            </div>
+            <div class="card-body p-3" style="display: flex; justify-content: center; align-items: center;">
+                <div style="width: 100%; height: 100%;">
+                    <canvas id="pieChart"></canvas>
                 </div>
             </div>
-        </div>
-
-        <div class="col-xl-4">
-            <div class="card m-b-30">
-                <div class="card-body">
-                    <h4 class="mt-0 header-title mb-4">Sales Analytics</h4>
-                    <div id="morris-line-example" class="morris-chart" style="height: 360px"></div>
-
-                </div>
             </div>
-
+          </div>
         </div>
+      </div>
+  <script>
+        // Data yang telah Anda ambil dari database
+        var data = <?php echo json_encode($listCompany); ?>;
 
-        <div class="col-xl-4">
-            <div class="card m-b-30">
-                <div class="card-body">
+        // Siapkan array untuk labels dan data
+        var labels = [];
+        var values = [];
 
-                    <h4 class="mt-0 header-title mb-4">Recent Activity</h4>
-                    <ol class="activity-feed mb-0">
-                        <li class="feed-item">
-                            <div class="feed-item-list">
-                                <p class="text-muted mb-1">Now</p>
-                                <p class="font-15 mt-0 mb-0">Andrei Coman posted a new article: <b class="text-primary">Forget UX Rowland</b></p>
-                            </div>
-                        </li>
-                        <li class="feed-item">
-                            <p class="text-muted mb-1">Yesterday</p>
-                            <p class="font-15 mt-0 mb-0">Andrei Coman posted a new article: <b class="text-primary">Designer Alex</b></p>
-                        </li>
-                        <li class="feed-item">
-                            <p class="text-muted mb-1">2:30PM</p>
-                            <p class="font-15 mt-0 mb-0">Zack Wetass, <b class="text-primary"> Developer Moreno</b></p>
-                        </li>
-                        <li class="feed-item pb-1">
-                            <p class="text-muted mb-1">12:48 PM</p>
-                            <p class="font-15 mt-0 mb-2">Zack Wetass, <b class="text-primary">UX Murphy</b></p>
-                        </li>
+        // Membaca data dan memasukkannya ke dalam arrays
+        data.forEach(function(item) {
+            labels.push(item.nama_perusahaan);
+            values.push(item.jumlah_peserta);
+        });
 
-                    </ol>
+        // Siapkan array warna
+        var dynamicColors = [];
+        for (var i = 0; i < labels.length; i++) {
+            dynamicColors.push(getRandomColor());
+        }
 
-                </div>
-            </div>
-        </div>
-    </div> -->
+        // Fungsi untuk mendapatkan warna acak
+        function getRandomColor() {
+            var letters = '0123456789ABCDEF';
+            var color = '#';
+            for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
 
-<!-- START ROW -->
+        // Konfigurasi chart
+        const config = {
+            type: 'pie',
+            data: {
+                labels: labels,
+                datasets: [{
+                    data: values,
+                    backgroundColor: dynamicColors,
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        display: false,
+                        position: 'bottom'
+                    },
+                    title: {
+                        display: false,
+                        text: 'Chart.js Pie Chart'
+                    }
+                }
+            }
+        };
 
-<!-- END ROW -->
+        // Menggambar chart
+        var ctx = document.getElementById('pieChart').getContext('2d');
+        var myPieChart = new Chart(ctx, config);
+    </script>
+
+

@@ -43,7 +43,7 @@ class C_Auth extends CI_Controller
 	{
 
 		if (!empty($this->session->userdata("userId"))) {
-			redirect('C_MstTraining');
+			redirect();
 		}
 
 		// print_r($data);

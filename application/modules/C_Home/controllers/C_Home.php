@@ -39,12 +39,39 @@ class C_Home extends BaseController
 	 */
 	public function index()
 	{
-		$data['user'] = $this->db->get_where("ch_gen_tbl_user", ['notactive' => 0])->result(); 
-		$data['sales'] = $this->db->get_where("ch_gen_tbl_mst_sales", ['is_active' => 1])->result(); 
-		$data['sertifikat'] = $this->db->get("ch_gen_tbl_trans_sertifikat")->result(); 
-		$data['layanan'] = $this->db->get("ch_gen_tbl_mst_layanan")->result(); 
+		$this->db->from('tb_mst_training');
+		$data['totalTraining'] = $this->db->count_all_results();
 
-		$this->layout('index', $data);
+		$this->db->from('tb_mst_training');
+		$this->db->where('is_active', 1);
+		$data['totalAktif'] = $this->db->count_all_results();
+
+		$this->db->from('tb_mst_training');
+		$this->db->where('is_active', 0);
+		$data['totalNotAktif'] = $this->db->count_all_results();
+
+		$this->db->select('*'); // Pilih kolom yang ingin Anda ambil dari tabel
+		$this->db->from('tb_mst_training');
+		$data['listTraining'] = $this->db->order_by('kode', 'desc')->limit(10)->get()->result(); // Menggunakan get() untuk mendapatkan hasil query
+
+
+		$data['totalSertifikat'] = $this->db->from('tb_trn_pesert')->count_all_results();
+
+		$this->db->select('nama_perusahaan, COUNT(*) as jumlah_peserta');
+		$this->db->from('tb_trn_pesert');
+		$this->db->where('nama_perusahaan IS NOT NULL');
+		$this->db->group_by('nama_perusahaan');
+		$query = $this->db->get();
+
+		$data['listCompany'] = $query->result();
+
+		// $this->db->where('durasi >=', date('Y-m-01')); // Misalnya, hanya menghitung data yang dimulai bulan ini
+		// $data['totalBulanIni'] = $this->db->count_all_results();
+
+		// print_r($data);
+		// die;
+
+		$this->argon('index', $data);
 	}
 	
 }
