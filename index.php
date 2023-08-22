@@ -62,7 +62,7 @@ if (! defined('ENVIRONMENT')) {
     $domain = strtolower($_SERVER['HTTP_HOST']);
 
     switch ($domain) {
-    case 'https://training.smartsertifikasi.co.id/':
+    case 'training.smartsertifikasi.co.id':
       define('ENVIRONMENT', 'production');
     break;
     case 'test.yoursite.tld':
