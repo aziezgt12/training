@@ -33,7 +33,7 @@
               <div class="row">
                 <div class="col-8">
                   <div class="numbers">
-                    <p class="text-sm mb-0  font-weight-bold">Total Sertifikat</p>
+                    <p class="text-sm mb-0  font-weight-bold">Total Sertifikat testci/cd</p>
                     <h5 class="font-weight-bolder mt-3">
                       <?= $totalSertifikat ?> Sertifikat
                     </h5>
