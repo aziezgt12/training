@@ -1163,3 +1163,100 @@ INFO - 2023-08-22 20:02:05 --> Controller Class Initialized
 DEBUG - 2023-08-22 20:02:06 --> File loaded: /home/smaricoi/training.smartsertifikasi.co.id/application/views/print-sertifikat.php
 INFO - 2023-08-22 20:02:06 --> Final output sent to browser
 DEBUG - 2023-08-22 20:02:06 --> Total execution time: 0.8328
+INFO - 2023-08-22 14:35:31 --> Config Class Initialized
+INFO - 2023-08-22 14:35:31 --> Hooks Class Initialized
+DEBUG - 2023-08-22 14:35:31 --> UTF-8 Support Enabled
+INFO - 2023-08-22 14:35:31 --> Utf8 Class Initialized
+INFO - 2023-08-22 14:35:31 --> URI Class Initialized
+DEBUG - 2023-08-22 14:35:31 --> No URI present. Default controller set.
+INFO - 2023-08-22 14:35:31 --> Router Class Initialized
+INFO - 2023-08-22 14:35:31 --> Output Class Initialized
+INFO - 2023-08-22 14:35:31 --> Security Class Initialized
+DEBUG - 2023-08-22 14:35:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-08-22 14:35:31 --> Input Class Initialized
+INFO - 2023-08-22 14:35:31 --> Language Class Initialized
+INFO - 2023-08-22 14:35:31 --> Language Class Initialized
+INFO - 2023-08-22 14:35:31 --> Config Class Initialized
+INFO - 2023-08-22 14:35:31 --> Loader Class Initialized
+INFO - 2023-08-22 14:35:31 --> Helper loaded: url_helper
+INFO - 2023-08-22 14:35:31 --> Helper loaded: file_helper
+INFO - 2023-08-22 14:35:31 --> Helper loaded: form_helper
+INFO - 2023-08-22 14:35:31 --> Helper loaded: main_helper
+INFO - 2023-08-22 14:35:31 --> Database Driver Class Initialized
+ERROR - 2023-08-22 14:35:31 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'smaricoi_uKoneksi'@'localhost' (using password: YES) C:\laragon\www\training\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2023-08-22 14:35:31 --> Unable to connect to the database
+INFO - 2023-08-22 14:35:31 --> Language file loaded: language/english/db_lang.php
+INFO - 2023-08-22 14:36:14 --> Config Class Initialized
+INFO - 2023-08-22 14:36:14 --> Hooks Class Initialized
+DEBUG - 2023-08-22 14:36:14 --> UTF-8 Support Enabled
+INFO - 2023-08-22 14:36:14 --> Utf8 Class Initialized
+INFO - 2023-08-22 14:36:14 --> URI Class Initialized
+DEBUG - 2023-08-22 14:36:14 --> No URI present. Default controller set.
+INFO - 2023-08-22 14:36:14 --> Router Class Initialized
+INFO - 2023-08-22 14:36:14 --> Output Class Initialized
+INFO - 2023-08-22 14:36:14 --> Security Class Initialized
+DEBUG - 2023-08-22 14:36:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-08-22 14:36:14 --> Input Class Initialized
+INFO - 2023-08-22 14:36:14 --> Language Class Initialized
+INFO - 2023-08-22 14:36:14 --> Language Class Initialized
+INFO - 2023-08-22 14:36:14 --> Config Class Initialized
+INFO - 2023-08-22 14:36:14 --> Loader Class Initialized
+INFO - 2023-08-22 14:36:14 --> Helper loaded: url_helper
+INFO - 2023-08-22 14:36:14 --> Helper loaded: file_helper
+INFO - 2023-08-22 14:36:14 --> Helper loaded: form_helper
+INFO - 2023-08-22 14:36:14 --> Helper loaded: main_helper
+INFO - 2023-08-22 14:36:14 --> Database Driver Class Initialized
+ERROR - 2023-08-22 14:36:24 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+ C:\laragon\www\training\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2023-08-22 14:36:24 --> Unable to connect to the database
+INFO - 2023-08-22 14:36:24 --> Language file loaded: language/english/db_lang.php
+INFO - 2023-08-22 14:36:45 --> Config Class Initialized
+INFO - 2023-08-22 14:36:45 --> Hooks Class Initialized
+DEBUG - 2023-08-22 14:36:45 --> UTF-8 Support Enabled
+INFO - 2023-08-22 14:36:45 --> Utf8 Class Initialized
+INFO - 2023-08-22 14:36:45 --> URI Class Initialized
+DEBUG - 2023-08-22 14:36:45 --> No URI present. Default controller set.
+INFO - 2023-08-22 14:36:45 --> Router Class Initialized
+INFO - 2023-08-22 14:36:45 --> Output Class Initialized
+INFO - 2023-08-22 14:36:45 --> Security Class Initialized
+DEBUG - 2023-08-22 14:36:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-08-22 14:36:45 --> Input Class Initialized
+INFO - 2023-08-22 14:36:45 --> Language Class Initialized
+INFO - 2023-08-22 14:36:45 --> Language Class Initialized
+INFO - 2023-08-22 14:36:45 --> Config Class Initialized
+INFO - 2023-08-22 14:36:45 --> Loader Class Initialized
+INFO - 2023-08-22 14:36:45 --> Helper loaded: url_helper
+INFO - 2023-08-22 14:36:45 --> Helper loaded: file_helper
+INFO - 2023-08-22 14:36:45 --> Helper loaded: form_helper
+INFO - 2023-08-22 14:36:45 --> Helper loaded: main_helper
+INFO - 2023-08-22 14:36:45 --> Database Driver Class Initialized
+ERROR - 2023-08-22 14:36:47 --> Severity: Warning --> mysqli::real_connect(): php_network_getaddresses: getaddrinfo failed: No such host is known.  C:\laragon\www\training\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2023-08-22 14:36:47 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: No such host is known.  C:\laragon\www\training\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2023-08-22 14:36:47 --> Unable to connect to the database
+INFO - 2023-08-22 14:36:47 --> Language file loaded: language/english/db_lang.php
+ERROR - 2023-08-22 14:36:47 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\laragon\www\training\system\core\Exceptions.php:271) C:\laragon\www\training\system\core\Common.php 564
+INFO - 2023-08-22 14:42:48 --> Config Class Initialized
+INFO - 2023-08-22 14:42:48 --> Hooks Class Initialized
+DEBUG - 2023-08-22 14:42:48 --> UTF-8 Support Enabled
+INFO - 2023-08-22 14:42:48 --> Utf8 Class Initialized
+INFO - 2023-08-22 14:42:48 --> URI Class Initialized
+DEBUG - 2023-08-22 14:42:48 --> No URI present. Default controller set.
+INFO - 2023-08-22 14:42:48 --> Router Class Initialized
+INFO - 2023-08-22 14:42:48 --> Output Class Initialized
+INFO - 2023-08-22 14:42:48 --> Security Class Initialized
+DEBUG - 2023-08-22 14:42:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-08-22 14:42:48 --> Input Class Initialized
+INFO - 2023-08-22 14:42:48 --> Language Class Initialized
+INFO - 2023-08-22 14:42:48 --> Language Class Initialized
+INFO - 2023-08-22 14:42:48 --> Config Class Initialized
+INFO - 2023-08-22 14:42:48 --> Loader Class Initialized
+INFO - 2023-08-22 14:42:48 --> Helper loaded: url_helper
+INFO - 2023-08-22 14:42:48 --> Helper loaded: file_helper
+INFO - 2023-08-22 14:42:48 --> Helper loaded: form_helper
+INFO - 2023-08-22 14:42:48 --> Helper loaded: main_helper
+INFO - 2023-08-22 14:42:48 --> Database Driver Class Initialized
+ERROR - 2023-08-22 14:42:50 --> Severity: Warning --> mysqli::real_connect(): php_network_getaddresses: getaddrinfo failed: No such host is known.  C:\laragon\www\training\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2023-08-22 14:42:50 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): php_network_getaddresses: getaddrinfo failed: No such host is known.  C:\laragon\www\training\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2023-08-22 14:42:50 --> Unable to connect to the database
+INFO - 2023-08-22 14:42:50 --> Language file loaded: language/english/db_lang.php
+ERROR - 2023-08-22 14:42:50 --> Severity: Warning --> Cannot modify header information - headers already sent by (output started at C:\laragon\www\training\system\core\Exceptions.php:271) C:\laragon\www\training\system\core\Common.php 564
