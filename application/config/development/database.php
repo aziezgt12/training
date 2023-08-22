@@ -63,10 +63,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'https://smartsertifikasi.co.id/',
-	'username' => 'smaricoi_uKoneksi',
-	'password' => 'sm@rt2023',
-	'database' => 'smaricoi_etraining',
+	'hostname' => 'localhost',
+	'username' => 'root',
+	'password' => '',
+	'database' => 'training',
 	'port' 	   => '3306',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
