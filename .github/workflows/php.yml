@@ -1,0 +1,38 @@
+name: CodeIgniter CI3 Workflow
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '7.3' # Set your desired PHP version
+
+      - name: Install Composer
+        run: |
+          php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+          php composer-setup.php
+          php -r "unlink('composer-setup.php');"
+
+      - name: Install dependencies
+        run: php composer.phar install --prefer-dist --no-interaction
+
+      # Add additional steps as needed, such as running tests
+      # - name: Run tests
+      #   run: php vendor/bin/phpunit
+
+      # - name: Deploy to production
+      #   run: ./deploy.sh
