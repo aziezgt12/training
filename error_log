@@ -1,0 +1,61 @@
+[12-Aug-2023 10:47:03 Asia/Jakarta] PHP Parse error:  syntax error, unexpected '=' in /home/smaricoi/training.smartsertifikasi.co.id/application/third_party/MX/Router.php on line 154
+[12-Aug-2023 10:48:49 Asia/Jakarta] PHP Warning:  Uncaught Exception: Session: Configured save path '/opt/alt/php71/var/lib/php/session' is not a directory, doesn't exist or cannot be created. in /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/drivers/Session_files_driver.php:138
+Stack trace:
+#0 [internal function]: CI_Session_files_driver->open('/opt/alt/php71/...', 'ci_session')
+#1 /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/Session.php(143): session_start()
+#2 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1285): CI_Session->__construct()
+#3 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1178): CI_Loader->_ci_init_library('Session', 'CI_', NULL, 'session')
+#4 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1043): CI_Loader->_ci_load_stock_library('Session', 'Session/', NULL, NULL)
+#5 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1089): CI_Loader->_ci_load_library('Session', NULL, NULL)
+#6 /home/smaricoi/training.s in /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/drivers/Session_files_driver.php on line 138
+[12-Aug-2023 10:48:49 Asia/Jakarta] PHP Fatal error:  session_start(): Failed to initialize storage module: user (path: /opt/alt/php71/var/lib/php/session) in /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/Session.php on line 143
+[12-Aug-2023 10:53:27 Asia/Jakarta] PHP Warning:  Uncaught Exception: Session: Configured save path '/opt/alt/php71/var/lib/php/session' is not a directory, doesn't exist or cannot be created. in /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/drivers/Session_files_driver.php:138
+Stack trace:
+#0 [internal function]: CI_Session_files_driver->open('/opt/alt/php71/...', 'ci_session')
+#1 /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/Session.php(143): session_start()
+#2 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1285): CI_Session->__construct()
+#3 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1178): CI_Loader->_ci_init_library('Session', 'CI_', NULL, 'session')
+#4 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1043): CI_Loader->_ci_load_stock_library('Session', 'Session/', NULL, NULL)
+#5 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1089): CI_Loader->_ci_load_library('Session', NULL, NULL)
+#6 /home/smaricoi/training.s in /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/drivers/Session_files_driver.php on line 138
+[12-Aug-2023 10:53:27 Asia/Jakarta] PHP Fatal error:  session_start(): Failed to initialize storage module: user (path: /opt/alt/php71/var/lib/php/session) in /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/Session.php on line 143
+[12-Aug-2023 10:54:09 Asia/Jakarta] PHP Warning:  Uncaught Exception: Session: Configured save path '/opt/alt/php71/var/lib/php/session' is not a directory, doesn't exist or cannot be created. in /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/drivers/Session_files_driver.php:138
+Stack trace:
+#0 [internal function]: CI_Session_files_driver->open('/opt/alt/php71/...', 'ci_session')
+#1 /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/Session.php(143): session_start()
+#2 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1285): CI_Session->__construct()
+#3 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1178): CI_Loader->_ci_init_library('Session', 'CI_', NULL, 'session')
+#4 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1043): CI_Loader->_ci_load_stock_library('Session', 'Session/', NULL, NULL)
+#5 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1089): CI_Loader->_ci_load_library('Session', NULL, NULL)
+#6 /home/smaricoi/training.s in /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/drivers/Session_files_driver.php on line 138
+[12-Aug-2023 10:54:09 Asia/Jakarta] PHP Fatal error:  session_start(): Failed to initialize storage module: user (path: /opt/alt/php71/var/lib/php/session) in /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/Session.php on line 143
+[12-Aug-2023 10:54:26 Asia/Jakarta] PHP Warning:  Uncaught Exception: Session: Configured save path '/opt/alt/php71/var/lib/php/session' is not a directory, doesn't exist or cannot be created. in /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/drivers/Session_files_driver.php:138
+Stack trace:
+#0 [internal function]: CI_Session_files_driver->open('/opt/alt/php71/...', 'ci_session')
+#1 /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/Session.php(143): session_start()
+#2 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1285): CI_Session->__construct()
+#3 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1178): CI_Loader->_ci_init_library('Session', 'CI_', NULL, 'session')
+#4 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1043): CI_Loader->_ci_load_stock_library('Session', 'Session/', NULL, NULL)
+#5 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1089): CI_Loader->_ci_load_library('Session', NULL, NULL)
+#6 /home/smaricoi/training.s in /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/drivers/Session_files_driver.php on line 138
+[12-Aug-2023 10:54:26 Asia/Jakarta] PHP Fatal error:  session_start(): Failed to initialize storage module: user (path: /opt/alt/php71/var/lib/php/session) in /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/Session.php on line 143
+[12-Aug-2023 10:54:28 Asia/Jakarta] PHP Warning:  Uncaught Exception: Session: Configured save path '/opt/alt/php71/var/lib/php/session' is not a directory, doesn't exist or cannot be created. in /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/drivers/Session_files_driver.php:138
+Stack trace:
+#0 [internal function]: CI_Session_files_driver->open('/opt/alt/php71/...', 'ci_session')
+#1 /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/Session.php(143): session_start()
+#2 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1285): CI_Session->__construct()
+#3 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1178): CI_Loader->_ci_init_library('Session', 'CI_', NULL, 'session')
+#4 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1043): CI_Loader->_ci_load_stock_library('Session', 'Session/', NULL, NULL)
+#5 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1089): CI_Loader->_ci_load_library('Session', NULL, NULL)
+#6 /home/smaricoi/training.s in /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/drivers/Session_files_driver.php on line 138
+[12-Aug-2023 10:54:28 Asia/Jakarta] PHP Fatal error:  session_start(): Failed to initialize storage module: user (path: /opt/alt/php71/var/lib/php/session) in /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/Session.php on line 143
+[12-Aug-2023 10:54:32 Asia/Jakarta] PHP Warning:  Uncaught Exception: Session: Configured save path '/opt/alt/php71/var/lib/php/session' is not a directory, doesn't exist or cannot be created. in /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/drivers/Session_files_driver.php:138
+Stack trace:
+#0 [internal function]: CI_Session_files_driver->open('/opt/alt/php71/...', 'ci_session')
+#1 /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/Session.php(143): session_start()
+#2 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1285): CI_Session->__construct()
+#3 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1178): CI_Loader->_ci_init_library('Session', 'CI_', NULL, 'session')
+#4 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1043): CI_Loader->_ci_load_stock_library('Session', 'Session/', NULL, NULL)
+#5 /home/smaricoi/training.smartsertifikasi.co.id/system/core/Loader.php(1089): CI_Loader->_ci_load_library('Session', NULL, NULL)
+#6 /home/smaricoi/training.s in /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/drivers/Session_files_driver.php on line 138
+[12-Aug-2023 10:54:32 Asia/Jakarta] PHP Fatal error:  session_start(): Failed to initialize storage module: user (path: /opt/alt/php71/var/lib/php/session) in /home/smaricoi/training.smartsertifikasi.co.id/system/libraries/Session/Session.php on line 143
