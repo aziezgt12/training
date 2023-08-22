@@ -63,10 +63,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => '203.194.113.194:3306',
-	'username' => 'ssit7983_ssiCetak',
-	'password' => ';Qm^A=~uJ51b',
-	'database' => 'ssit7983_ssiCetak',
+	'hostname' => 'https://smartsertifikasi.co.id/',
+	'username' => 'smaricoi_uKoneksi',
+	'password' => 'sm@rt2023',
+	'database' => 'smaricoi_etraining',
 	'port' 	   => '3306',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
@@ -83,3 +83,26 @@ $db['default'] = array(
 	'failover' => array(),
 	'save_queries' => TRUE
 );
+
+// $db['default'] = array(
+// 	'dsn'	=> '',
+// 	'hostname' => 'localhost',
+// 	'username' => 'kupr6514_uKoneksi',
+// 	'password' => 'Mikrotik12@',
+// 	'database' => 'test2',
+// 	'port' 	   => '3306',
+// 	'dbdriver' => 'mysqli',
+// 	'dbprefix' => '',
+// 	'pconnect' => FALSE,
+// 	'db_debug' => (ENVIRONMENT !== 'production'),
+// 	'cache_on' => FALSE,
+// 	'cachedir' => '',
+// 	'char_set' => 'utf8',
+// 	'dbcollat' => 'utf8_general_ci',
+// 	'swap_pre' => '',
+// 	'encrypt' => FALSE,
+// 	'compress' => FALSE,
+// 	'stricton' => FALSE,
+// 	'failover' => array(),
+// 	'save_queries' => TRUE
+// );

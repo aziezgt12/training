@@ -8,8 +8,8 @@
                 </div>
                 <hr class="horizontal dark mt-0">
 
-                <div class="card-body p-2 pt-0 pb-2">
-                    <div class="table-responsive p-2" style="height: 350px;">
+                <div class="card-body p-2 pt-0 pb-2" style="height: 100%">
+                    <div class="table-responsive p-2" style="height: 70vh;">
                         <table class="table align-items-center justify-content-center" id="table-body">
                             <thead>
                                 <tr>

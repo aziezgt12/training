@@ -71,7 +71,7 @@ if (! defined('ENVIRONMENT')) {
     default:
       define('ENVIRONMENT', 'development');
     break;
-  } 
+  }
 }
 
 /*
