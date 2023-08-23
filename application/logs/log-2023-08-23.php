@@ -9711,3 +9711,222 @@ DEBUG - 2023-08-23 17:40:53 --> C_Verifikasi MX_Controller Initialized
 DEBUG - 2023-08-23 17:40:53 --> File loaded: C:\laragon\www\training\application\modules/C_Verifikasi/views/index.php
 INFO - 2023-08-23 17:40:53 --> Final output sent to browser
 DEBUG - 2023-08-23 17:40:53 --> Total execution time: 0.1760
+INFO - 2023-08-23 17:44:57 --> Config Class Initialized
+INFO - 2023-08-23 17:44:57 --> Hooks Class Initialized
+DEBUG - 2023-08-23 17:44:57 --> UTF-8 Support Enabled
+INFO - 2023-08-23 17:44:57 --> Utf8 Class Initialized
+INFO - 2023-08-23 17:44:57 --> URI Class Initialized
+INFO - 2023-08-23 17:44:57 --> Router Class Initialized
+INFO - 2023-08-23 17:44:57 --> Output Class Initialized
+INFO - 2023-08-23 17:44:57 --> Security Class Initialized
+DEBUG - 2023-08-23 17:44:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-08-23 17:44:57 --> Input Class Initialized
+INFO - 2023-08-23 17:44:57 --> Language Class Initialized
+INFO - 2023-08-23 17:44:57 --> Language Class Initialized
+INFO - 2023-08-23 17:44:57 --> Config Class Initialized
+INFO - 2023-08-23 17:44:57 --> Loader Class Initialized
+INFO - 2023-08-23 17:44:57 --> Helper loaded: url_helper
+INFO - 2023-08-23 17:44:57 --> Helper loaded: file_helper
+INFO - 2023-08-23 17:44:57 --> Helper loaded: form_helper
+INFO - 2023-08-23 17:44:57 --> Helper loaded: main_helper
+INFO - 2023-08-23 17:44:57 --> Database Driver Class Initialized
+DEBUG - 2023-08-23 17:44:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2023-08-23 17:44:57 --> Session: Class initialized using 'files' driver.
+INFO - 2023-08-23 17:44:57 --> Controller Class Initialized
+DEBUG - 2023-08-23 17:44:57 --> C_Report MX_Controller Initialized
+DEBUG - 2023-08-23 17:44:57 --> File loaded: C:\laragon\www\training\application\views\layout/_partial/argon/stylesheet.php
+DEBUG - 2023-08-23 17:44:57 --> File loaded: C:\laragon\www\training\application\views\layout/_partial/argon/menu.php
+DEBUG - 2023-08-23 17:44:57 --> File loaded: C:\laragon\www\training\application\modules/C_Report/views/index.php
+DEBUG - 2023-08-23 17:44:57 --> File loaded: C:\laragon\www\training\application\views\layout/_partial/argon/script.php
+DEBUG - 2023-08-23 17:44:57 --> File loaded: C:\laragon\www\training\application\views\/layout/argonindex.php
+INFO - 2023-08-23 17:44:57 --> Final output sent to browser
+DEBUG - 2023-08-23 17:44:57 --> Total execution time: 0.3076
+INFO - 2023-08-23 17:45:41 --> Config Class Initialized
+INFO - 2023-08-23 17:45:41 --> Hooks Class Initialized
+DEBUG - 2023-08-23 17:45:41 --> UTF-8 Support Enabled
+INFO - 2023-08-23 17:45:41 --> Utf8 Class Initialized
+INFO - 2023-08-23 17:45:41 --> URI Class Initialized
+INFO - 2023-08-23 17:45:41 --> Router Class Initialized
+INFO - 2023-08-23 17:45:41 --> Output Class Initialized
+INFO - 2023-08-23 17:45:41 --> Security Class Initialized
+DEBUG - 2023-08-23 17:45:41 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-08-23 17:45:41 --> Input Class Initialized
+INFO - 2023-08-23 17:45:41 --> Language Class Initialized
+INFO - 2023-08-23 17:45:41 --> Language Class Initialized
+INFO - 2023-08-23 17:45:41 --> Config Class Initialized
+INFO - 2023-08-23 17:45:41 --> Loader Class Initialized
+INFO - 2023-08-23 17:45:41 --> Helper loaded: url_helper
+INFO - 2023-08-23 17:45:41 --> Helper loaded: file_helper
+INFO - 2023-08-23 17:45:41 --> Helper loaded: form_helper
+INFO - 2023-08-23 17:45:41 --> Helper loaded: main_helper
+INFO - 2023-08-23 17:45:41 --> Database Driver Class Initialized
+DEBUG - 2023-08-23 17:45:41 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2023-08-23 17:45:41 --> Session: Class initialized using 'files' driver.
+INFO - 2023-08-23 17:45:41 --> Controller Class Initialized
+DEBUG - 2023-08-23 17:45:43 --> File loaded: C:\laragon\www\training\application\views\print-sertifikat.php
+INFO - 2023-08-23 17:45:43 --> Final output sent to browser
+DEBUG - 2023-08-23 17:45:43 --> Total execution time: 1.8792
+INFO - 2023-08-23 17:46:57 --> Config Class Initialized
+INFO - 2023-08-23 17:46:57 --> Hooks Class Initialized
+DEBUG - 2023-08-23 17:46:57 --> UTF-8 Support Enabled
+INFO - 2023-08-23 17:46:57 --> Utf8 Class Initialized
+INFO - 2023-08-23 17:46:57 --> URI Class Initialized
+INFO - 2023-08-23 17:46:57 --> Router Class Initialized
+INFO - 2023-08-23 17:46:57 --> Output Class Initialized
+INFO - 2023-08-23 17:46:57 --> Security Class Initialized
+DEBUG - 2023-08-23 17:46:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-08-23 17:46:57 --> Input Class Initialized
+INFO - 2023-08-23 17:46:57 --> Language Class Initialized
+INFO - 2023-08-23 17:46:57 --> Language Class Initialized
+INFO - 2023-08-23 17:46:57 --> Config Class Initialized
+INFO - 2023-08-23 17:46:57 --> Loader Class Initialized
+INFO - 2023-08-23 17:46:57 --> Helper loaded: url_helper
+INFO - 2023-08-23 17:46:57 --> Helper loaded: file_helper
+INFO - 2023-08-23 17:46:57 --> Helper loaded: form_helper
+INFO - 2023-08-23 17:46:57 --> Helper loaded: main_helper
+INFO - 2023-08-23 17:46:57 --> Database Driver Class Initialized
+DEBUG - 2023-08-23 17:46:57 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2023-08-23 17:46:57 --> Session: Class initialized using 'files' driver.
+INFO - 2023-08-23 17:46:57 --> Controller Class Initialized
+DEBUG - 2023-08-23 17:46:57 --> C_Report MX_Controller Initialized
+DEBUG - 2023-08-23 17:46:57 --> File loaded: C:\laragon\www\training\application\views\layout/_partial/argon/stylesheet.php
+DEBUG - 2023-08-23 17:46:57 --> File loaded: C:\laragon\www\training\application\views\layout/_partial/argon/menu.php
+DEBUG - 2023-08-23 17:46:57 --> File loaded: C:\laragon\www\training\application\modules/C_Report/views/index.php
+DEBUG - 2023-08-23 17:46:57 --> File loaded: C:\laragon\www\training\application\views\layout/_partial/argon/script.php
+DEBUG - 2023-08-23 17:46:57 --> File loaded: C:\laragon\www\training\application\views\/layout/argonindex.php
+INFO - 2023-08-23 17:46:57 --> Final output sent to browser
+DEBUG - 2023-08-23 17:46:57 --> Total execution time: 0.4452
+INFO - 2023-08-23 17:47:08 --> Config Class Initialized
+INFO - 2023-08-23 17:47:08 --> Hooks Class Initialized
+DEBUG - 2023-08-23 17:47:08 --> UTF-8 Support Enabled
+INFO - 2023-08-23 17:47:08 --> Utf8 Class Initialized
+INFO - 2023-08-23 17:47:08 --> URI Class Initialized
+INFO - 2023-08-23 17:47:08 --> Router Class Initialized
+INFO - 2023-08-23 17:47:08 --> Output Class Initialized
+INFO - 2023-08-23 17:47:08 --> Security Class Initialized
+DEBUG - 2023-08-23 17:47:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-08-23 17:47:08 --> Input Class Initialized
+INFO - 2023-08-23 17:47:08 --> Language Class Initialized
+INFO - 2023-08-23 17:47:08 --> Language Class Initialized
+INFO - 2023-08-23 17:47:08 --> Config Class Initialized
+INFO - 2023-08-23 17:47:08 --> Loader Class Initialized
+INFO - 2023-08-23 17:47:08 --> Helper loaded: url_helper
+INFO - 2023-08-23 17:47:08 --> Helper loaded: file_helper
+INFO - 2023-08-23 17:47:08 --> Helper loaded: form_helper
+INFO - 2023-08-23 17:47:08 --> Helper loaded: main_helper
+INFO - 2023-08-23 17:47:08 --> Database Driver Class Initialized
+DEBUG - 2023-08-23 17:47:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2023-08-23 17:47:09 --> Session: Class initialized using 'files' driver.
+INFO - 2023-08-23 17:47:09 --> Controller Class Initialized
+DEBUG - 2023-08-23 17:47:09 --> C_Report MX_Controller Initialized
+DEBUG - 2023-08-23 17:47:09 --> File loaded: C:\laragon\www\training\application\views\layout/_partial/argon/stylesheet.php
+DEBUG - 2023-08-23 17:47:09 --> File loaded: C:\laragon\www\training\application\views\layout/_partial/argon/menu.php
+DEBUG - 2023-08-23 17:47:09 --> File loaded: C:\laragon\www\training\application\modules/C_Report/views/index.php
+DEBUG - 2023-08-23 17:47:09 --> File loaded: C:\laragon\www\training\application\views\layout/_partial/argon/script.php
+DEBUG - 2023-08-23 17:47:09 --> File loaded: C:\laragon\www\training\application\views\/layout/argonindex.php
+INFO - 2023-08-23 17:47:09 --> Final output sent to browser
+DEBUG - 2023-08-23 17:47:09 --> Total execution time: 0.6522
+INFO - 2023-08-23 17:47:10 --> Config Class Initialized
+INFO - 2023-08-23 17:47:10 --> Hooks Class Initialized
+DEBUG - 2023-08-23 17:47:10 --> UTF-8 Support Enabled
+INFO - 2023-08-23 17:47:10 --> Utf8 Class Initialized
+INFO - 2023-08-23 17:47:10 --> URI Class Initialized
+INFO - 2023-08-23 17:47:10 --> Router Class Initialized
+INFO - 2023-08-23 17:47:10 --> Output Class Initialized
+INFO - 2023-08-23 17:47:10 --> Security Class Initialized
+DEBUG - 2023-08-23 17:47:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-08-23 17:47:10 --> Input Class Initialized
+INFO - 2023-08-23 17:47:10 --> Language Class Initialized
+INFO - 2023-08-23 17:47:10 --> Language Class Initialized
+INFO - 2023-08-23 17:47:10 --> Config Class Initialized
+INFO - 2023-08-23 17:47:10 --> Loader Class Initialized
+INFO - 2023-08-23 17:47:10 --> Helper loaded: url_helper
+INFO - 2023-08-23 17:47:10 --> Helper loaded: file_helper
+INFO - 2023-08-23 17:47:10 --> Helper loaded: form_helper
+INFO - 2023-08-23 17:47:10 --> Helper loaded: main_helper
+INFO - 2023-08-23 17:47:10 --> Database Driver Class Initialized
+DEBUG - 2023-08-23 17:47:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2023-08-23 17:47:10 --> Session: Class initialized using 'files' driver.
+INFO - 2023-08-23 17:47:10 --> Controller Class Initialized
+DEBUG - 2023-08-23 17:47:10 --> C_Verifikasi MX_Controller Initialized
+DEBUG - 2023-08-23 17:47:10 --> File loaded: C:\laragon\www\training\application\modules/C_Verifikasi/views/index.php
+INFO - 2023-08-23 17:47:10 --> Final output sent to browser
+DEBUG - 2023-08-23 17:47:10 --> Total execution time: 0.1757
+INFO - 2023-08-23 17:47:40 --> Config Class Initialized
+INFO - 2023-08-23 17:47:40 --> Hooks Class Initialized
+DEBUG - 2023-08-23 17:47:40 --> UTF-8 Support Enabled
+INFO - 2023-08-23 17:47:40 --> Utf8 Class Initialized
+INFO - 2023-08-23 17:47:40 --> URI Class Initialized
+INFO - 2023-08-23 17:47:40 --> Router Class Initialized
+INFO - 2023-08-23 17:47:40 --> Output Class Initialized
+INFO - 2023-08-23 17:47:40 --> Security Class Initialized
+DEBUG - 2023-08-23 17:47:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-08-23 17:47:40 --> Input Class Initialized
+INFO - 2023-08-23 17:47:40 --> Language Class Initialized
+INFO - 2023-08-23 17:47:40 --> Language Class Initialized
+INFO - 2023-08-23 17:47:40 --> Config Class Initialized
+INFO - 2023-08-23 17:47:40 --> Loader Class Initialized
+INFO - 2023-08-23 17:47:40 --> Helper loaded: url_helper
+INFO - 2023-08-23 17:47:40 --> Helper loaded: file_helper
+INFO - 2023-08-23 17:47:40 --> Helper loaded: form_helper
+INFO - 2023-08-23 17:47:40 --> Helper loaded: main_helper
+INFO - 2023-08-23 17:47:40 --> Database Driver Class Initialized
+DEBUG - 2023-08-23 17:47:40 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2023-08-23 17:47:40 --> Session: Class initialized using 'files' driver.
+INFO - 2023-08-23 17:47:40 --> Controller Class Initialized
+DEBUG - 2023-08-23 17:47:40 --> C_Verifikasi MX_Controller Initialized
+DEBUG - 2023-08-23 17:47:40 --> File loaded: C:\laragon\www\training\application\modules/C_Verifikasi/views/index.php
+INFO - 2023-08-23 17:47:40 --> Final output sent to browser
+DEBUG - 2023-08-23 17:47:40 --> Total execution time: 0.3042
+INFO - 2023-08-23 17:48:06 --> Config Class Initialized
+INFO - 2023-08-23 17:48:06 --> Hooks Class Initialized
+DEBUG - 2023-08-23 17:48:06 --> UTF-8 Support Enabled
+INFO - 2023-08-23 17:48:06 --> Utf8 Class Initialized
+INFO - 2023-08-23 17:48:06 --> URI Class Initialized
+INFO - 2023-08-23 17:48:06 --> Router Class Initialized
+INFO - 2023-08-23 17:48:06 --> Output Class Initialized
+INFO - 2023-08-23 17:48:06 --> Security Class Initialized
+DEBUG - 2023-08-23 17:48:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-08-23 17:48:06 --> Input Class Initialized
+INFO - 2023-08-23 17:48:06 --> Language Class Initialized
+INFO - 2023-08-23 17:48:06 --> Language Class Initialized
+INFO - 2023-08-23 17:48:06 --> Config Class Initialized
+INFO - 2023-08-23 17:48:06 --> Loader Class Initialized
+INFO - 2023-08-23 17:48:06 --> Helper loaded: url_helper
+INFO - 2023-08-23 17:48:06 --> Helper loaded: file_helper
+INFO - 2023-08-23 17:48:06 --> Helper loaded: form_helper
+INFO - 2023-08-23 17:48:06 --> Helper loaded: main_helper
+INFO - 2023-08-23 17:48:06 --> Database Driver Class Initialized
+DEBUG - 2023-08-23 17:48:06 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2023-08-23 17:48:06 --> Session: Class initialized using 'files' driver.
+INFO - 2023-08-23 17:48:06 --> Controller Class Initialized
+DEBUG - 2023-08-23 17:48:06 --> C_Verifikasi MX_Controller Initialized
+DEBUG - 2023-08-23 17:48:06 --> File loaded: C:\laragon\www\training\application\modules/C_Verifikasi/views/index.php
+INFO - 2023-08-23 17:48:06 --> Final output sent to browser
+DEBUG - 2023-08-23 17:48:06 --> Total execution time: 0.3559
+INFO - 2023-08-23 17:48:09 --> Config Class Initialized
+INFO - 2023-08-23 17:48:09 --> Hooks Class Initialized
+DEBUG - 2023-08-23 17:48:09 --> UTF-8 Support Enabled
+INFO - 2023-08-23 17:48:09 --> Utf8 Class Initialized
+INFO - 2023-08-23 17:48:09 --> URI Class Initialized
+INFO - 2023-08-23 17:48:09 --> Router Class Initialized
+INFO - 2023-08-23 17:48:09 --> Output Class Initialized
+INFO - 2023-08-23 17:48:09 --> Security Class Initialized
+DEBUG - 2023-08-23 17:48:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2023-08-23 17:48:09 --> Input Class Initialized
+INFO - 2023-08-23 17:48:09 --> Language Class Initialized
+INFO - 2023-08-23 17:48:10 --> Language Class Initialized
+INFO - 2023-08-23 17:48:10 --> Config Class Initialized
+INFO - 2023-08-23 17:48:10 --> Loader Class Initialized
+INFO - 2023-08-23 17:48:10 --> Helper loaded: url_helper
+INFO - 2023-08-23 17:48:10 --> Helper loaded: file_helper
+INFO - 2023-08-23 17:48:10 --> Helper loaded: form_helper
+INFO - 2023-08-23 17:48:10 --> Helper loaded: main_helper
+INFO - 2023-08-23 17:48:10 --> Database Driver Class Initialized
+DEBUG - 2023-08-23 17:48:10 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2023-08-23 17:48:10 --> Session: Class initialized using 'files' driver.
+INFO - 2023-08-23 17:48:10 --> Controller Class Initialized
+DEBUG - 2023-08-23 17:48:10 --> C_Verifikasi MX_Controller Initialized
+DEBUG - 2023-08-23 17:48:10 --> File loaded: C:\laragon\www\training\application\modules/C_Verifikasi/views/index.php
+INFO - 2023-08-23 17:48:10 --> Final output sent to browser
+DEBUG - 2023-08-23 17:48:10 --> Total execution time: 0.2182

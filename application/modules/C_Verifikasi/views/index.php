@@ -76,7 +76,8 @@
         </div>
       </div>
     </div>
-    <?php if(isset($no_sertifikat) && $peserta->no_sertifikat != null): ?>
+    <?php if(isset($no_sertifikat)){ ?>
+    <?php if($peserta->no_sertifikat != null): ?>
     <div class="container mt-11 ">
       <div class="row mt-lg-n10 mt-md-n11 mt-n10 justify-content-center ">
         <div class="col-xl-8 col-lg-5 col-md-7 mx-auto">
@@ -148,6 +149,7 @@
     <?php else: ?>
         <div class="alert alert-danger mt-10 m-4 p-4"><h5 class="text-white">Sertifikat tidak ditemukan</h5></div>
     <?php endif ?>
+    <?php  } ?>
   </main>
   <!-- -------- START FOOTER 3 w/ COMPANY DESCRIPTION WITH LINKS & SOCIAL ICONS & COPYRIGHT ------- -->
     <!-- -------- END FOOTER 3 w/ COMPANY DESCRIPTION WITH LINKS & SOCIAL ICONS & COPYRIGHT ------- -->
