@@ -21,7 +21,7 @@
                 </div>
             </div>
                 <hr>
-
+               
 
                     <table class="datatable table table-striped table-bordered dt-responsive nowrap table-search" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
                         <thead>
@@ -31,7 +31,7 @@
                             <th>Action</th>
                         </thead>
                         <tbody>
-                        <!-- <?php foreach($list as $key=>$val)
+                        <?php foreach($list as $key=>$val)
                         {
                             echo "<tr>";
                             echo "<td>$key+1</td>";
@@ -43,7 +43,7 @@
                                     <button class='btn btn-primary open-modal'>Edit</button>
                                 </td>";
                             echo "</tr>";
-                        } ?> -->
+                        } ?>
                         </tbody>
                     </table>
 

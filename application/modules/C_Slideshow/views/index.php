@@ -12,40 +12,35 @@
         <div class="card m-b-30">
             <div class="card-body">
 
-            <div class="row">
-                <div class="col-md-6">
-                    <h4 class="mt-0 header-title">Daftar Dokter</h4>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="mt-0 header-title"><?= $title ?></h4>
+                    </div>
+                    <div class="col-md-6">
+                        <button class='btn btn-primary float-right col-md-3 open-modal'>Tambah Data</button>
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <button class='btn btn-primary float-right col-md-3 open-modal'>Tambah Data</button>
-                </div>
-            </div>
                 <hr>
 
 
-                    <table class="datatable table table-striped table-bordered dt-responsive nowrap table-search" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
-                        <thead>
-                            <th class="nowrap w-10">No</th>
-                            <th>Nama Dokter</th>
-                            <th>Spesialis</th>
-                            <th>Action</th>
-                        </thead>
-                        <tbody>
-                        <!-- <?php foreach($list as $key=>$val)
-                        {
-                            echo "<tr>";
-                            echo "<td>$key+1</td>";
-                            echo "<td>$val->nama</td>";
-                            echo "<td>$val->spesialisasi</td>";
-                            echo "<td hidden>$val->id</td>";
-                            echo "<td>
-                                    <button class='btn btn-danger' onclick='deleted(".$val->id.")'>Delete</button>
-                                    <button class='btn btn-primary open-modal'>Edit</button>
+                <table class="datatable table table-striped table-bordered dt-responsive nowrap table-search" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+                    <thead>
+                        <th class="nowrap w-10">ID</th>
+                        <th>File</th>
+                        <th>Action</th>
+                    </thead>
+                    <tbody>
+                        <?php foreach ($list as $key => $val) {
+                            echo "<tr style='line-height: 0px !important; height:0px !important;' >";
+                            echo "<td style='line-height: 0px !important; height:0px !important;'>" . ($key + 1) . "</td>";
+                            echo "<td style='line-height: 0px !important; height:0px !important;'><img height='100' width='120' src='" . base_url('assets/berkas_ppid/') . $val->foto . "' ></td>";
+                            echo "<td class='p-0 ps-1 pe-1' style='line-height: 0px !important; height: 0px !important;'>
+                                    <button class='btn btn-danger btn-sm m-0 ' onclick='deleted(" . $val->id . ")'>Delete</button>
                                 </td>";
                             echo "</tr>";
-                        } ?> -->
-                        </tbody>
-                    </table>
+                        } ?>
+                    </tbody>
+                </table>
 
             </div>
         </div>
@@ -79,21 +74,17 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <form id="form-data">
+            <form id="form-data" enctype="multipart/form-data">
                 <div class="modal-body">
+
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Nama</label>
-                        <input type="hidden" class="form-control" name="id">
-                        <input type="text" class="form-control" name="nama">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputPassword1">spesialisasi</label>
-                        <input type="text" class="form-control" name="spesialisasi">
+                        <label for="exampleInputPassword1">File</label><br>
+                        <input type="file" class="" name="file">
                     </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary btn-group-user btn-action" onclick="save()" >Save changes</button>
+                    <button type="button" class="btn btn-primary btn-group-user btn-action" onclick="save()">Save changes</button>
                 </div>
             </form>
         </div>
@@ -103,10 +94,10 @@
 
 <script>
     $(document).ready(function() {
-  // Event delegation for the "Edit" button click
+        // Event delegation for the "Edit" button click
         $(document).on('click', '.open-modal', function() {
-            $("#exampleModalLongTitle").html("Form Create Obat")
-        //     $(".btn-action").attr('onclick', 'save()');
+            $("#exampleModalLongTitle").html("Form Create Informasi")
+            //     $(".btn-action").attr('onclick', 'save()');
             $("#modalForm").modal('show')
             // Get the parent table row (tr)
             var row = $(this).closest('tr');
@@ -116,17 +107,16 @@
             var nama = row.find('td:eq(1)').text();
             var spesialisasi = row.find('td:eq(2)').text();
 
-      
+
 
             // Populate the form fields with the retrieved values
             $('#form-data input[name="id"]').val(id);
             $('#form-data input[name="nama"]').val(nama);
             $('#form-data input[name="spesialisasi"]').val(spesialisasi);
 
-            if(id > 0)
-            {
+            if (id > 0) {
                 $('#form-data input[name="id"]').attr('readonly', true);
-            }else{
+            } else {
                 $('#form-data input[name="id"]').attr('readonly', false);
 
             }
@@ -163,8 +153,7 @@
 
     //     // }
     // }
-    function save()
-    {
+    function save() {
         Swal.fire({
             title: 'Are you sure?',
             text: "It will be saved!",
@@ -175,47 +164,57 @@
             showLoaderOnConfirm: true,
             preConfirm: function() {
                 return new Promise(function(resolve) {
+                    var formData = new FormData($('#form-data')[0]);
+
                     $.ajax({
                         type: "post",
-                        url: "<?= base_url("C_Mst_Dokter/save") ?>",
-                        data: $("#form-data").serialize(),
+                        url: "<?= base_url("C_Slideshow/save") ?>",
+                        data: formData,
+                        processData: false, // Important: Prevents jQuery from processing the data
+                        contentType: false, // Important: Prevents jQuery from setting the content type
                         dataType: "json",
                         beforeSend: function() {
-                            // $('#spinnerSave').attr('class', 'spinner-border spinner-border-sm')
                             $('.btn-action').html('Loading...');
                             $('.btn-action').attr('disabled', true);
                         },
                         success: function(response) {
                             console.log(response);
-                            setTimeout(() => {
+                            setTimeout(function() {
                                 if (response.code == 200) {
-                                    sw_alert("Success", String(response.message), "success");
-                                    setTimeout(() => {
-                                        location.reload()
+                                    sw_alert("Success", response.message, "success");
+                                    setTimeout(function() {
+                                        location.reload();
                                     }, 3000);
                                 } else {
-                                    sw_alert("Error", String(response.message), "error");
+                                    sw_alert("Error", response.message, "error");
                                     $('.btn-save').html('Save');
                                 }
-                                
-                            $('.btn-action').html('save');
-                            $('.btn-action').attr('disabled', false);
+
+                                resetButtonState();
                             }, 3000);
-
-
                         },
-                        error:  function (jqXHR, textError) { 
+                        error: function(jqXHR, textStatus, errorThrown) {
                             console.log(jqXHR);
-                            console.log(textError);
-                         }
+                            console.log(textStatus);
+                            console.log(errorThrown);
+                            resetButtonState(); // Reset the button state on error too
+                        },
+                        complete: function() {
+                            resetButtonState();
+                        }
                     });
+
+                    function resetButtonState() {
+                        $('.btn-action').html('Save');
+                        $('.btn-action').attr('disabled', false);
+                    }
+
                 });
             },
         });
     }
 
-    function deleted(id)
-    {
+    function deleted(id) {
         Swal.fire({
             title: 'Are you sure?',
             text: "It will be deleted!",
@@ -228,9 +227,9 @@
                 return new Promise(function(resolve) {
                     $.ajax({
                         type: "post",
-                        url: "<?= base_url("C_Mst_Dokter/delete") ?>",
+                        url: "<?= base_url("C_Slideshow/delete") ?>",
                         data: {
-                            'id' : id
+                            'id': id
                         },
                         dataType: "json",
                         beforeSend: function() {
@@ -250,17 +249,17 @@
                                     sw_alert("Error", String(response.message), "error");
                                     $('.btn-save').html('Save');
                                 }
-                                
-                            $('.btn-action').html('save');
-                            $('.btn-action').attr('disabled', false);
+
+                                $('.btn-action').html('save');
+                                $('.btn-action').attr('disabled', false);
                             }, 3000);
 
 
                         },
-                        error:  function (jqXHR, textError) { 
+                        error: function(jqXHR, textError) {
                             console.log(jqXHR);
                             console.log(textError);
-                         }
+                        }
                     });
                 });
             },

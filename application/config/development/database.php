@@ -63,10 +63,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'training',
+	'hostname' => '103.146.203.123',
+	'username' => 'smknpari_original',
+	'password' => 'mikrotik12',
+	'database' => 'smknpari_db_ppid',
 	'port' 	   => '3306',
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',

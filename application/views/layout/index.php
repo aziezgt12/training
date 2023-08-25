@@ -11,6 +11,9 @@
     <link rel="shortcut icon" href="<?= base_url() ?>assets/images/favicon.ico">
 
     <?= $_stylesheet ?>
+    <!-- Include the TinyMCE library -->
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js"></script>
+
 
 
 
@@ -29,10 +32,10 @@
             <div class="topbar-left" style="background-color:aliceblue">
                 <a href="<?= base_url() ?>" class="logo">
                     <span class="logo-light">
-                        <img src="<?= base_url('assets/images/logo.png') ?>" width="100" alt="">
-                    <span class="logo-sm">
-                        <img src="<?= base_url('assets/images/logo.png') ?>" width="50" alt="">
-                    </span>
+                        <img src="<?= base_url('assets/images/header.jpg') ?>" width="240" height="70" alt="">
+                        <span class="logo-sm">
+                            <img src="<?= base_url('assets/images/logo.png') ?>" width="50" alt="">
+                        </span>
                 </a>
             </div>
 
@@ -95,7 +98,17 @@
     <!-- END wrapper -->
 
 
-   <script src="<?= base_url() ?>assets/pages/form-advanced.js"></script>
+    <script src="<?= base_url() ?>assets/pages/form-advanced.js"></script>
+    <script>
+        tinymce.init({
+            selector: '#myTextarea',
+            height: 600,
+            plugins: 'link image code',
+            toolbar: 'undo redo | styleselect | bold italic | alignleft aligncenter alignright | bullist numlist outdent indent | link image | code',
+
+        });
+    </script>
+
 
 </body>
 

@@ -1,6 +1,6 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed');
 
-class C_Home extends BaseController
+class C_Mst_Dokter extends BaseController
 {
 
 	/**
@@ -29,7 +29,6 @@ class C_Home extends BaseController
 		// Load the constructer from MY_Controller
 		parent::__construct();
 		$this->load->model("Obat", "Obat");
-		
 	}
 
 	/**
@@ -42,6 +41,9 @@ class C_Home extends BaseController
 	public function index()
 	{
 
+		$data['titlePage'] = "List Dokter";
+
+		$data['list'] = $this->db->get('tb_mst_dokter')->result();
 
 		$this->layout('index', $data);
 	}

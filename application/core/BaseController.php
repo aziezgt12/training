@@ -58,11 +58,11 @@ class BaseController extends MX_Controller
             redirect("C_Auth");
         }
 
-        // if ($_SERVER['SERVER_NAME'] == 'localhost') {
-        //     error_reporting(1);
-        // } else {
-        //     error_reporting(0);
-        // }
+        if ($_SERVER['SERVER_NAME'] == 'localhost') {
+            error_reporting(1);
+        } else {
+            error_reporting(0);
+        }
     }
 
     function layout($template, $data = null)
